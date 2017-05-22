@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="textSizeDesc">15sp</dimen>
+    <dimen name="textSizeTitle">20sp</dimen>
+    <dimen name="viewsMargin">10dp</dimen>
+    <dimen name="viewsHeight">40dp</dimen>
+    <dimen name="viewsFilterMargin">15dp</dimen>
+</resources>
+

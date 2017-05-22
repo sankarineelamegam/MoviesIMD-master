@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "346280708899",
+    "project_id": "movieimdb-168207"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346280708899:android:7043e2d9bf44e88f",
+        "android_client_info": {
+          "package_name": "movie.n.sankari.movieimdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346280708899-ukedltr6uorh7b8gkmfp7833b59cth0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "movie.n.sankari.movieimdb",
+            "certificate_hash": "fc405aa58e88c61127220458f876e1cc2d49ed1e"
+          }
+        },
+        {
+          "client_id": "346280708899-sa1e4n37la1q5qhs5qp2ectg5btfntgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6c_lmLSaNBM85B5DmeI_96-cm5NxL_NU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

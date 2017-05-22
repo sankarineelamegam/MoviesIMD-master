@@ -1,0 +1,64 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="movie.n.sankari.movieimdb.fragments.MovieListingFragment">
+
+
+    <LinearLayout
+        android:id="@+id/search_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/viewsMargin"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10"
+    >
+
+        <TextView
+            android:id="@+id/from_date"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/viewsHeight"
+            android:layout_weight="3"
+            android:background="@drawable/bg_rounded_corner"
+            android:gravity="center"
+            android:hint="@string/from_date_text"
+        />
+
+        <TextView
+            android:id="@+id/to_date"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/viewsHeight"
+            android:layout_marginLeft="@dimen/viewsMargin"
+            android:layout_weight="3"
+            android:background="@drawable/bg_rounded_corner"
+            android:gravity="center"
+            android:hint="@string/to_date_text"
+
+        />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/viewsHeight"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/viewsMargin"
+            android:layout_weight="3"
+            android:background="@drawable/bg_rounded_corner"
+            android:text="@string/search_text"
+
+        />
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/movies_list_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_section"
+        android:scrollbars="vertical"/>
+
+</RelativeLayout>
